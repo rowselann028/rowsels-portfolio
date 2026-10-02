@@ -38,17 +38,13 @@ type Tool = {
 }
 
 export const tools: Tool[] = [
-  { name: 'Claude Code',          iconPath: '/icons/claude-code-logo.png' },
-  { name: 'Codex',                iconPath: '/icons/codex.svg',           color: '#000000' },
-  { name: 'Cursor',               iconPath: '/icons/cursor.svg',          color: '#0F172A' },
-  { name: 'Hermes AI',            iconPath: '/icons/nousresearch.svg',    color: '#18181B' },
-  { name: 'VS Code',              iconPath: '/icons/vscode.svg' },
-  { name: 'GoHighLevel',          iconPath: '/icons/gohighlevel.png' },
-  { name: 'Lightspeed X-Series',  iconPath: '/icons/lightspeed.png' },
-  { name: 'Google Workspace',     iconPath: '/icons/googleworkspace.svg' },
-  { name: 'Zendesk',              iconPath: '/icons/zendesk.svg',         color: '#03363D' },
-  { name: 'Intercom',             iconPath: '/icons/intercom.svg',        color: '#1F8DED' },
-  { name: 'Slack',                iconPath: '/icons/slack.svg',           color: '#611F69' },
+  { name: 'Google Workspace', iconPath: '/icons/googleworkspace.svg' },
+  { name: 'GoHighLevel', iconPath: '/icons/gohighlevel.png' },
+  { name: 'Zendesk', iconPath: '/icons/zendesk.svg', color: '#03363D' },
+  { name: 'Slack', iconPath: '/icons/slack.svg', color: '#611F69' },
+  { name: 'Meta Business Suite', iconPath: '/icons/facebook.svg', color: '#1877F2' },
+  { name: 'ChatGPT', iconPath: '/icons/openai.svg', color: '#111111' },
+  { name: 'Claude', iconPath: '/icons/anthropic.svg', color: '#C15F3C' },
 ]
 
 export default function ToolsMarquee() {

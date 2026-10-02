@@ -1,15 +1,3 @@
-/**
- * YOUR IDENTITY - start here.
- *
- * Everything that says who you are lives in this file: name, handle, photo,
- * socials, email and the Home headline. Every value below is a PLACEHOLDER.
- * Replace the text, or hand this file to your AI assistant and tell it what
- * to put in each field.
- *
- * Page-specific copy (projects, services, testimonials, FAQs) lives in the
- * other files in src/data/ and at the top of each view component.
- */
-
 import { Briefcase, SealCheck, Clock, type Icon } from '@/components/slab'
 
 export type SocialLink = {
@@ -18,23 +6,17 @@ export type SocialLink = {
   iconPath: string
 }
 
-/** A proof fact on the phone's Home: a glyph, a short value, a caption. */
 export type Stat = { value: string; label: string; Icon: Icon }
 
 export type Profile = {
   name: string
-  /** First name, used in "Hi, I'm ___." on About. */
   firstName: string
   handle: string
-  /** Short role line under the handle on phones. */
   role: string
-  /** Square image. An SVG, WebP or PNG with a transparent background looks best. */
   avatarSrc: string
-  /** Tooltip / screen-reader label on the verified tick next to your name. */
   verifiedLabel: string
   email: string
   location: string
-  /** Three short proof facts shown on phones under the Home lede. */
   stats: Stat[]
   displayName: { line1: string; line2: string }
   hero: {
@@ -46,31 +28,24 @@ export type Profile = {
 }
 
 export const profile: Profile = {
-  name: 'Your Name',
-  firstName: 'Your Name',
-  handle: '@yourhandle',
-  role: 'PLACEHOLDER - your title',
-  avatarSrc: '/avatar.svg',
-  verifiedLabel: 'PLACEHOLDER - what the tick means (e.g. a certification)',
-  email: 'you@example.com',
-  location: 'PLACEHOLDER - your city or timezone',
-  // Pick any icon from https://phosphoricons.com and import it above.
+  name: 'Rowsel Ann',
+  firstName: 'Rowsel',
+  handle: '@rowselann028',
+  role: 'Virtual Assistant | Customer Support & Operations',
+  avatarSrc: '/rowsel-headshot.webp',
+  verifiedLabel: '9+ years of customer service and support experience',
+  email: 'rowselann028@gmail.com',
+  location: 'Pampanga, Philippines',
   stats: [
-    { value: '0 yrs', label: 'PLACEHOLDER', Icon: Briefcase },
-    { value: '#000', label: 'PLACEHOLDER', Icon: SealCheck },
-    { value: 'GMT+0', label: 'PLACEHOLDER', Icon: Clock },
+    { value: '9+ yrs', label: 'Customer support experience', Icon: Briefcase },
+    { value: 'Multi-industry', label: 'Real estate, healthcare, e-commerce & telco', Icon: SealCheck },
+    { value: 'GMT+8', label: 'Philippines | Remote-ready', Icon: Clock },
   ],
-  // The intro types this line, then flies it into the Home headline.
-  // Keep it short: two halves, 5-8 words total.
-  displayName: { line1: 'Your headline here.', line2: 'Keep it short.' },
+  displayName: { line1: 'Reliable support.', line2: 'Real results.' },
   hero: {
-    body: 'PLACEHOLDER - one line on what you do and who you do it for.',
-    portraitSrc: '/avatar.svg',
-    portraitAlt: 'Portrait placeholder',
+    body: 'Virtual Assistant helping businesses stay organized, responsive, and connected through customer support, real estate assistance, social media, and day-to-day operations.',
+    portraitSrc: '/rowsel-headshot.webp',
+    portraitAlt: 'Portrait of Rowsel Ann',
   },
-  socials: [
-    { label: 'Facebook profile', href: '#', iconPath: '/icons/facebook.svg' },
-    { label: 'LinkedIn profile', href: '#', iconPath: '/icons/linkedin.svg' },
-    { label: 'Discord profile', href: '#', iconPath: '/icons/discord.svg' },
-  ],
+  socials: [],
 }
