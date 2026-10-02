@@ -28,7 +28,7 @@ export type Profile = {
 }
 
 export const profile: Profile = {
-  name: 'Rowsel Ann Capili',
+  name: 'Rowsel Ann',
   firstName: 'Rowsel',
   handle: '@rowselann028',
   role: 'Virtual Assistant | Customer Support & Operations',
@@ -45,7 +45,7 @@ export const profile: Profile = {
   hero: {
     body: 'Virtual Assistant helping businesses stay organized, responsive, and connected through customer support, real estate assistance, social media, and day-to-day operations.',
     portraitSrc: '/rowsel-headshot.webp',
-    portraitAlt: 'Portrait of Rowsel Ann Capili',
+    portraitAlt: 'Portrait of Rowsel Ann',
   },
   socials: [],
 }
