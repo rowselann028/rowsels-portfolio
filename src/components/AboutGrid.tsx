@@ -1,5 +1,5 @@
 import type { CSSProperties } from 'react'
-import { MapPin, Briefcase, ChatsCircle, CalendarCheck, Megaphone, ShoppingCart } from '@/components/slab'
+import { MapPin, Briefcase } from '@/components/slab'
 import { profile } from '@/data/profile'
 
 const GWS = { src: '/icons/googleworkspace.svg', name: 'Google Workspace' }
