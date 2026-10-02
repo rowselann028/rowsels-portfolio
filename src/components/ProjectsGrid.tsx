@@ -1,4 +1,4 @@
-import { ArrowUpRight, Ticket, AddressBook, Globe, Gear, Stack, User } from '@/components/slab'
+import { Ticket, AddressBook, Globe, Gear, Stack, User } from '@/components/slab'
 
 type Experience = {
   period: string
