@@ -39,12 +39,10 @@ type Tool = {
 
 export const tools: Tool[] = [
   { name: 'Google Workspace', iconPath: '/icons/googleworkspace.svg' },
-  { name: 'Microsoft 365', iconPath: '/icons/ai/microsoft.svg', color: '#5E5E5E' },
   { name: 'GoHighLevel', iconPath: '/icons/gohighlevel.png' },
   { name: 'Zendesk', iconPath: '/icons/zendesk.svg', color: '#03363D' },
   { name: 'Slack', iconPath: '/icons/slack.svg', color: '#611F69' },
   { name: 'Meta Business Suite', iconPath: '/icons/facebook.svg', color: '#1877F2' },
-  { name: 'Canva', iconPath: '/icons/ai/canva.svg', color: '#00C4CC' },
   { name: 'ChatGPT', iconPath: '/icons/openai.svg', color: '#111111' },
   { name: 'Claude', iconPath: '/icons/anthropic.svg', color: '#C15F3C' },
 ]
