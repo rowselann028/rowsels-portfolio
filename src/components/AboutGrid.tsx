@@ -81,7 +81,7 @@ export default function AboutGrid() {
         </div>
 
         <div className="agrid__portrait">
-          <img src={profile.portraitSrc ?? profile.avatarSrc} alt={profile.hero.portraitAlt} loading="eager" decoding="async" width={400} height={400} />
+          <img src={profile.hero.portraitSrc} alt={profile.hero.portraitAlt} loading="eager" decoding="async" width={400} height={400} />
         </div>
       </div>
     </section>
