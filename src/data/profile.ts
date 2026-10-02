@@ -32,9 +32,9 @@ export const profile: Profile = {
   firstName: 'Rowsel',
   handle: '@rowselann028',
   role: 'Virtual Assistant | Customer Support & Operations',
-  avatarSrc: '/avatar.svg',
+  avatarSrc: '/rowsel-headshot.webp',
   verifiedLabel: '9+ years of customer service and support experience',
-  email: 'your.email@example.com',
+  email: 'rowselann028@gmail.com',
   location: 'Pampanga, Philippines',
   stats: [
     { value: '9+ yrs', label: 'Customer support experience', Icon: Briefcase },
@@ -44,7 +44,7 @@ export const profile: Profile = {
   displayName: { line1: 'Reliable support.', line2: 'Real results.' },
   hero: {
     body: 'Virtual Assistant helping businesses stay organized, responsive, and connected through customer support, real estate assistance, social media, and day-to-day operations.',
-    portraitSrc: '/avatar.svg',
+    portraitSrc: '/rowsel-headshot.webp',
     portraitAlt: 'Portrait of Rowsel Ann Capili',
   },
   socials: [],
