@@ -1,30 +1,24 @@
 export type QA = { q: string; a: string }
 
-/**
- * The questions people ask before they email. One list, used by the FAQ
- * accordion on the Contact view (and the legacy long-scroll FAQ section).
- * Five questions, two or three sentences each: the accordion sits in a
- * fixed panel and more than that pushes the email row off the plate.
- */
 export const FAQS: QA[] = [
   {
-    q: 'What do you do?',
-    a: 'PLACEHOLDER - tell me what to put here: the kinds of work you take on, and who it is usually for.',
+    q: 'What kind of support can you provide?',
+    a: 'I support businesses with email and chat support, ticket resolution, appointment setting, lead follow-ups, real estate assistance, social media management, e-commerce product listing, and general administrative tasks.',
   },
   {
-    q: 'How fast can you start?',
-    a: 'PLACEHOLDER - tell me what to put here: your usual lead time for small fixes vs. larger projects, and your working hours.',
+    q: 'What industries have you worked in?',
+    a: 'My experience includes real estate, healthcare and insurance, telecommunications, e-commerce, digital printing, and customer support operations.',
   },
   {
-    q: 'How much do you charge?',
-    a: 'PLACEHOLDER - tell me what to put here: how you price (hourly, per project, retainer) and how a quote is put together.',
+    q: 'What tools are you comfortable using?',
+    a: 'I work with Google Workspace, Microsoft 365, Salesforce, Close CRM, GoHighLevel, Zendesk, Citrix, Amazon WorkSpaces, Slack, Zoom, Notion, Meta Business Suite, Canva, CapCut, ChatGPT, and Claude.',
   },
   {
     q: 'Where are you based?',
-    a: 'PLACEHOLDER - tell me what to put here: your location or timezone, and which client timezones you overlap with.',
+    a: 'I am based in Pampanga, Philippines (GMT+8) and have experience working remotely with international customers and teams.',
   },
   {
-    q: 'What happens after I write?',
-    a: 'PLACEHOLDER - tell me what to put here: how fast you reply and what the next step looks like.',
+    q: 'How do we get started?',
+    a: 'Send me a message with the role, tasks, schedule, and tools you use. I can then confirm fit, availability, and the best next step for your business.',
   },
 ]
