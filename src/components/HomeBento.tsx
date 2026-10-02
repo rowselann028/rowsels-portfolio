@@ -1,6 +1,6 @@
 import type React from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowUpRight, FolderOpen, User, Stack, Gear, MessageCircle } from '@/components/slab'
+import { ArrowUpRight, FolderOpen, User, Stack, Gear, EnvelopeSimple } from '@/components/slab'
 
 const SERVICES = [
   'Email & chat support',
